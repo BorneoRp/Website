@@ -1,0 +1,41 @@
+<html>
+<head>
+ <script src="(link unavailable)"></script>
+ <style>
+ body {
+ background-image: url('background.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 150vh;
+ margin: 0;
+ }
+ </style>
+</head>
+<body style="display: flex; flex-direction: column; justify-content: center; align-items: center; font-family: Arial;">
+ 
+ <!-- Judul -->
+ <h1 style="font-size: 36px;">HALO WARGA BORNEO ROLEPLAY!</h1>
+ 
+ <!-- Instruksi -->
+ <p style="font-size: 25px; margin-top: 25px;">Salin IP di bawah dan tempelkan di apk GTA Anda.</p>
+ 
+ <p style="font-size: 36px; font-weight: bold; margin-top: 20px; margin-bottom: 20px;">IP SERVER</p>
+ 
+ <!-- Salin IP -->
+ <button class="clipboard" data-clipboard-text="51.79.136.184:7010" style="font-size: 48px; color: #00BFFF; margin-top: 20px; cursor: pointer;">51.79.136.184:7010</button>
+ 
+ <!-- Selamat Bermain -->
+ <h2 style="font-size: 30px; color: #008000; margin-top: 80px;">SELAMAT BEROLEPLAY!</h2>
+ 
+ <p style="font-size: 25px; color: #ffffff; margin-top: 13px;">Jangan lupa membaca rules IN-GAME</p>
+
+ <p style="font-size: 25px; color: #ffffff; margin-top: 10px;">©BorneoTeam</p>
+
+ <script>
+ const clipboard = new ClipboardJS('.clipboard');
+ clipboard.on('success', () => alert('IP disalin!'));
+ clipboard.on('error', () => alert('Gagal menyalin IP'));
+ </script>
+ 
+</body>
+</html>
